@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #495057;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.header {
+    border-bottom: 2px solid #e9ecef;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #000000;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0;
+    color: #212529;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.content p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content p i {
+    margin-right: 10px;
+    color: #000000;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #007bff;
+    font-size: 2em;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #0056b3;
+}
